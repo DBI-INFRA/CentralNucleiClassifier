@@ -1,0 +1,17 @@
+{
+  "object_classifier_type": "SimpleClassifier",
+  "function": {
+    "classifier_fun": "ClassifyByMeasurementFunction",
+    "measurement": "Signed distance to annotation with Cells µm",
+    "pathClassBelow": "Nuclei_Detached",
+    "pathClassEquals": "Nuclei_Attached",
+    "pathClassAbove": "Nuclei_Attached",
+    "threshold": -5.0
+  },
+  "pathClasses": [
+    "Nuclei_Detached",
+    "Nuclei_Attached"
+  ],
+  "filter": "DETECTIONS_ALL",
+  "timestamp": 1693922568176
+}

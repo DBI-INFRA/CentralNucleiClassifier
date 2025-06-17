@@ -1,0 +1,24 @@
+{
+  "pathClasses": [
+    {
+      "name": "Region",
+      "color": -3348737
+    },
+    {
+      "name": "Tissue",
+      "color": -3342337
+    },
+    {
+      "name": "Cells",
+      "color": -16744448
+    },
+    {
+      "name": "Nuclei_Detached",
+      "color": -3394765
+    },
+    {
+      "name": "Nuclei_Attached",
+      "color": -7917329
+    }
+  ]
+}
