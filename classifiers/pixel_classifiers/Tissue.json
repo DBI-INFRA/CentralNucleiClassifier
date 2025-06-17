@@ -32,7 +32,7 @@
     "type": "data.op.channels",
     "colorTransforms": [
       {
-        "channelName": "AF647"
+        "channelName": "Membrane"
       }
     ],
     "op": {
