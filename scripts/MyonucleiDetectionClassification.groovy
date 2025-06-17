@@ -12,7 +12,7 @@ MinRegionHole = 10000.0    // Minimum size for closing hole in region
 MinExcludeSize = 1000.0    // Minimum size of object for area to be excluded
 MinExcludeHole = 1000.0    // Minimum size for closing hole in exclude area
 //// Watershed Parameters
-DownSamp = 4              // Image downsampling factor
+DownSamp = 2              // Image downsampling factor
 GaussRad = 2              // Gaussian pre-filter radius (downsampled pix)  
 Prominence = 1            // Object detection level (grayscale levels)
 MinArea = 100             // Minimum object area (downsampled pix)
