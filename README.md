@@ -9,8 +9,9 @@ See: [https://www.dbi-infra.eu/iacf-project-gallery/muscle-nuclei-classification
 QuPath (Tested on version 0.5.1)
 
 ### Usage
-* Expected input image: Fluorescent images with at least two channels, one labelling the cell membrane with the channel name "Membrane" and the other labelling the nuclei, with the channel name "DAPI".
+**Expected input image**: Fluorescent images with at least two channels, one labelling the cell membrane with the channel name "Membrane" and the other labelling the nuclei, with the channel name "DAPI".
 
+**Steps**
 1. Download the repository
 2. Create a Qupath Project folder and add the available classes, classifiers and scripts to the project folder.
 3. Under `Automate > Project scripts...`, find and run MyonucleiDetectionClassfication. Parameters can be adjusted within the script to change the minimum allowed roi sizes and hole sizes for tissue segmentation, as well as for adjusting the watershed-based cell segmentation in the ImageJ macro.
